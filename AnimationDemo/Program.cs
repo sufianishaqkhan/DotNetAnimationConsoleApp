@@ -2,11 +2,11 @@
 Console.Title = "Wedding Day Reminder aka The End of Your Freedom Reminder";
 
 string remainingDays = "DAYS & TIME REMAINING TILL YOUR UMAR QEYD ON 27-JAN-2023";
-DateTime nikkahDateTimeLmao = new DateTime(2023, 1, 27, 15, 30, 0);
+DateTime dateTime = new DateTime(2023, 12, 31, 15, 0, 0);
 List<string> finalMessages = new List<string>{ "Poor you hehe...", "jk jk mubarak ho lmao" };
 
 CreateAndRemoveCurtain(20, true);
-CreateFallingTextAnimation(remainingDays, nikkahDateTimeLmao, finalMessages, 1);
+CreateFallingTextAnimation(remainingDays, dateTime, finalMessages, 1);
 
 Console.Read();
 
